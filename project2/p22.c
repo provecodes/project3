@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int p,q,sum;
+    int a,b,sum;
     printf("enter the values of a and b\n");
-    scanf("%d%d",&p,&q);
+    scanf("%d%d",&a,&b);
     sum=0;
-    sum=p-q;
+    sum=a-b;
     printf("sum=%d",sum);
     return 0;
 }
